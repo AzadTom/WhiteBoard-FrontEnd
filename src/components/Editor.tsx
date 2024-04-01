@@ -15,7 +15,7 @@ import { ArrowType, RectangleType, ScribbleType, CircleType, ImageType } from ".
 import { io } from 'socket.io-client';
 
 
-const socket = io('http://localhost:3001');
+const socket = io('https://white-board-backend-socket.vercel.app/');
 
 
 function Editor() {
